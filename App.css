@@ -1,0 +1,93 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(219, 105, 153, 0.63);
+  color: black;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 20px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-top: 120px;
+}
+
+.info-card {
+  background-color: rgba(219, 105, 152, 0.57);
+  padding: 20px;
+  padding-left: 45px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 105px;
+  margin-left: 15px;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.skills h2 {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #c95f8d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color:rgba(219, 105, 152, 0.57);
+}
+
+footer {
+  margin-top: 100px; /* gap sa taas */
+  border-top: 3px solid rgba(219, 105, 153, 0.63);
+  text-align: center;
+  padding: 10px;
+  color: black;
+  background-color: rgba(219, 105, 153, 0.2);
+}
+
